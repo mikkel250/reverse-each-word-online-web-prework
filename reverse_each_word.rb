@@ -1,4 +1,4 @@
 def reverse_each_word(str)
-  result = str.collect { |x| x.reverse }
+  result = str.to_a.collect { |x| x.reverse }
   puts result
 end
